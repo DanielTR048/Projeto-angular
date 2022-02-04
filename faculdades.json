@@ -1,0 +1,20 @@
+{
+    "regiao": [
+        {
+            "quantfacul": 4,
+            "faculdade_privada": "Galileu",
+            "faculdade_privada2": "unopar",
+            "faculdade_privada3": "unip",
+            "faculdade_publica": "unesp"
+        }
+    ],
+    "cursos": [
+        {
+            "quantcursos": 4,
+            "faculdade_privada": "engenharia de computação",
+            "faculdade_privada2": "marketing digital",
+            "faculdade_privada3": "enfermagem",
+            "faculdade_publica": "medicina"
+        }
+    ]
+}

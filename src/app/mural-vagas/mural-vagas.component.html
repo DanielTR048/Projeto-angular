@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia</title>
+
+</head>
+
+<body>
+
+  
+
+  <!--Puxar regioes-->
+    <ul *ngFor="let reg of regioes" class="list-group">
+      <li class="list-group-item">Lista de facilidades para o estudante</li>
+      <br>
+      <li class="list-group-item list-group-item-primary">Faculdades da regiao: </li>
+      <li class="list-group-item list-group-item-dark">Quantidade de faculdades: {{reg.quantfacul}}</li>
+      <li class="list-group-item list-group-item-dark">Faculdade da regiao: 1° {{reg.faculdade_privada}}</li>
+      <li class="list-group-item list-group-item-dark">Faculdade da regiao: 2° {{reg.faculdade_privada2}}</li>
+      <li class="list-group-item list-group-item-dark"> Faculdade da regiao: 3° {{reg.faculdade_privada3}}</li>
+      <li class="list-group-item list-group-item-dark">Faculdade da regiao: 4° {{reg.faculdade_publica}}</li>
+
+    </ul>
+
+
+
+  <!--Puxar cursos-->
+
+
+    <ul *ngFor="let cur of cursosz" class="list-group">
+      <li class="list-group-item list-group-item-secondary">Cursos da regiao: </li>
+      <li class="list-group-item list-group-item-dark">Quantidade de cursos: {{cur.quantcursos}}</li>
+      <li class="list-group-item list-group-item-dark">Curso na regiao: 1° {{cur.faculdade_privada}}</li>
+      <li class="list-group-item list-group-item-dark">Curso na regiao: 2° {{cur.faculdade_privada2}}</li>
+      <li class="list-group-item list-group-item-dark">Curso na regiao: 3° {{cur.faculdade_privada3}}</li>
+      <li class="list-group-item list-group-item-dark">Curso na regiao: 4° {{cur.faculdade_publica}}</li>
+    </ul>
+
+
+    <ul class="list-group">
+      <li class="list-group-item list-group-item-success">Melhor idade para começar</li>
+      <li class="list-group-item list-group-item-danger">Melhor metodo de estudo</li>
+      <li class="list-group-item list-group-item-warning">Porque devo me graduar?</li>
+      <li class="list-group-item list-group-item-info">Devo parar a facudade?</li>
+      <li class="list-group-item list-group-item-light">Entrei na faculdade e agora?</li>
+      <li class="list-group-item list-group-item-dark">Sai do ensino medio e agora?</li>
+    </ul>
+
+
+</body>
+
+</html>
